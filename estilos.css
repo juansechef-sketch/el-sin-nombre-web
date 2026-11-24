@@ -84,7 +84,9 @@ h3 { font-size: 1rem; margin: 1.75rem 0 .5rem; text-transform: uppercase; letter
 .clientes { list-style: none; padding: 0; margin: 0 0 2rem; }
 .clientes li { padding: .55rem 0; border-bottom: 1px solid var(--gris-claro); font-weight: 600; }
 
-.tel { margin-top: 1.5rem; }
+.tel { margin: 1.5rem 0 0; }
+.tel + .tel { margin-top: .5rem; }
+.tel a { word-break: break-word; }
 .tel a { font-weight: 700; }
 
 .fotos {
@@ -143,3 +145,5 @@ h3 { font-size: 1rem; margin: 1.75rem 0 .5rem; text-transform: uppercase; letter
   font-weight: 700;
   text-decoration: none;
 }
+
+.redes a { font-weight: 600; color: var(--negro); }
