@@ -146,4 +146,11 @@ h3 { font-size: 1rem; margin: 1.75rem 0 .5rem; text-transform: uppercase; letter
   text-decoration: none;
 }
 
-.redes a { font-weight: 600; color: var(--negro); }
+.btn-ig {
+  display: inline-flex; align-items: center; gap: .5rem;
+  margin-top: 1.25rem;
+  padding: .85rem 1.25rem;
+  border-radius: .5rem;
+  background: var(--negro); color: var(--blanco);
+  font-weight: 600; text-decoration: none;
+}
